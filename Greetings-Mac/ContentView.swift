@@ -1,8 +1,8 @@
 //
 //  ContentView.swift
-//  Gretings
+//  Greetings-Mac
 //
-//  Created by Hlib Lytvyn on 03.03.2025.
+//  Created by Hlib Lytvyn on 22.03.2025.
 //
 
 import SwiftUI

@@ -6,63 +6,78 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		93DD1A7E2D76355D00488844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93DD1A642D76355C00488844 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93DD1A6B2D76355C00488844;
-			remoteInfo = Gretings;
-		};
-		93DD1A882D76355D00488844 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 93DD1A642D76355C00488844 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 93DD1A6B2D76355C00488844;
-			remoteInfo = Gretings;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		93AE09922D8EC00300BC7595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AE09792D8EC00300BC7595 /* Assets.xcassets */; };
+		93AE09932D8EC00300BC7595 /* gretings.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE097A2D8EC00300BC7595 /* gretings.png */; };
+		93AE09962D8EC00300BC7595 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AE097E2D8EC00300BC7595 /* Localizable.xcstrings */; };
+		93AE09CA2D8EC1A500BC7595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93AE09792D8EC00300BC7595 /* Assets.xcassets */; };
+		93AE09CB2D8EC1B200BC7595 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 93AE097E2D8EC00300BC7595 /* Localizable.xcstrings */; };
+		93AE09CC2D8EC1B600BC7595 /* gretings.png in Resources */ = {isa = PBXBuildFile; fileRef = 93AE097A2D8EC00300BC7595 /* gretings.png */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		93AE09792D8EC00300BC7595 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		93AE097A2D8EC00300BC7595 /* gretings.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gretings.png; sourceTree = "<group>"; };
+		93AE097E2D8EC00300BC7595 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		93DAF0972D8EBFCE001B10AC /* Greetings-Mac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Greetings-Mac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		93DD1A6C2D76355C00488844 /* Gretings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gretings.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		93DD1A7D2D76355D00488844 /* GretingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GretingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		93DD1A872D76355D00488844 /* GretingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GretingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		93AE09E72D8ECA7000BC7595 /* Exceptions for "Gretings" folder in "Greetings-Mac" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"Preview Content/Preview Assets.xcassets",
+			);
+			target = 93DAF0962D8EBFCE001B10AC /* Greetings-Mac */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		93AE09A22D8EC12800BC7595 /* Constants */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		93AE09A52D8EC12800BC7595 /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		93AE09A92D8EC12800BC7595 /* Tips */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Tips;
+			sourceTree = "<group>";
+		};
+		93AE09B52D8EC12800BC7595 /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		93DAF0982D8EBFCE001B10AC /* Greetings-Mac */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Greetings-Mac";
+			sourceTree = "<group>";
+		};
 		93DD1A6E2D76355C00488844 /* Gretings */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				93AE09E72D8ECA7000BC7595 /* Exceptions for "Gretings" folder in "Greetings-Mac" target */,
+			);
 			path = Gretings;
-			sourceTree = "<group>";
-		};
-		93DD1A802D76355D00488844 /* GretingsTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GretingsTests;
-			sourceTree = "<group>";
-		};
-		93DD1A8A2D76355D00488844 /* GretingsUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = GretingsUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		93DAF0942D8EBFCE001B10AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93DD1A692D76355C00488844 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A7A2D76355D00488844 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A842D76355D00488844 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -72,12 +87,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		93AE09A02D8EC0D000BC7595 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				93AE09A22D8EC12800BC7595 /* Constants */,
+				93AE09A52D8EC12800BC7595 /* Models */,
+				93AE09A92D8EC12800BC7595 /* Tips */,
+				93AE09B52D8EC12800BC7595 /* Views */,
+				93AE097E2D8EC00300BC7595 /* Localizable.xcstrings */,
+				93AE097A2D8EC00300BC7595 /* gretings.png */,
+				93AE09792D8EC00300BC7595 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
 		93DD1A632D76355C00488844 = {
 			isa = PBXGroup;
 			children = (
+				93AE09A02D8EC0D000BC7595 /* Shared */,
 				93DD1A6E2D76355C00488844 /* Gretings */,
-				93DD1A802D76355D00488844 /* GretingsTests */,
-				93DD1A8A2D76355D00488844 /* GretingsUITests */,
+				93DAF0982D8EBFCE001B10AC /* Greetings-Mac */,
 				93DD1A6D2D76355C00488844 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				93DD1A6C2D76355C00488844 /* Gretings.app */,
-				93DD1A7D2D76355D00488844 /* GretingsTests.xctest */,
-				93DD1A872D76355D00488844 /* GretingsUITests.xctest */,
+				93DAF0972D8EBFCE001B10AC /* Greetings-Mac.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,6 +123,32 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		93DAF0962D8EBFCE001B10AC /* Greetings-Mac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93DAF0A22D8EBFD0001B10AC /* Build configuration list for PBXNativeTarget "Greetings-Mac" */;
+			buildPhases = (
+				93DAF0932D8EBFCE001B10AC /* Sources */,
+				93DAF0942D8EBFCE001B10AC /* Frameworks */,
+				93DAF0952D8EBFCE001B10AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				93AE09A22D8EC12800BC7595 /* Constants */,
+				93AE09A52D8EC12800BC7595 /* Models */,
+				93AE09A92D8EC12800BC7595 /* Tips */,
+				93AE09B52D8EC12800BC7595 /* Views */,
+				93DAF0982D8EBFCE001B10AC /* Greetings-Mac */,
+			);
+			name = "Greetings-Mac";
+			packageProductDependencies = (
+			);
+			productName = "Greetings-Mac";
+			productReference = 93DAF0972D8EBFCE001B10AC /* Greetings-Mac.app */;
+			productType = "com.apple.product-type.application";
+		};
 		93DD1A6B2D76355C00488844 /* Gretings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93DD1A912D76355D00488844 /* Build configuration list for PBXNativeTarget "Gretings" */;
@@ -108,6 +162,10 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				93AE09A22D8EC12800BC7595 /* Constants */,
+				93AE09A52D8EC12800BC7595 /* Models */,
+				93AE09A92D8EC12800BC7595 /* Tips */,
+				93AE09B52D8EC12800BC7595 /* Views */,
 				93DD1A6E2D76355C00488844 /* Gretings */,
 			);
 			name = Gretings;
@@ -116,52 +174,6 @@
 			productName = Gretings;
 			productReference = 93DD1A6C2D76355C00488844 /* Gretings.app */;
 			productType = "com.apple.product-type.application";
-		};
-		93DD1A7C2D76355D00488844 /* GretingsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93DD1A942D76355D00488844 /* Build configuration list for PBXNativeTarget "GretingsTests" */;
-			buildPhases = (
-				93DD1A792D76355D00488844 /* Sources */,
-				93DD1A7A2D76355D00488844 /* Frameworks */,
-				93DD1A7B2D76355D00488844 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93DD1A7F2D76355D00488844 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				93DD1A802D76355D00488844 /* GretingsTests */,
-			);
-			name = GretingsTests;
-			packageProductDependencies = (
-			);
-			productName = GretingsTests;
-			productReference = 93DD1A7D2D76355D00488844 /* GretingsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		93DD1A862D76355D00488844 /* GretingsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 93DD1A972D76355D00488844 /* Build configuration list for PBXNativeTarget "GretingsUITests" */;
-			buildPhases = (
-				93DD1A832D76355D00488844 /* Sources */,
-				93DD1A842D76355D00488844 /* Frameworks */,
-				93DD1A852D76355D00488844 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				93DD1A892D76355D00488844 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				93DD1A8A2D76355D00488844 /* GretingsUITests */,
-			);
-			name = GretingsUITests;
-			packageProductDependencies = (
-			);
-			productName = GretingsUITests;
-			productReference = 93DD1A872D76355D00488844 /* GretingsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -173,16 +185,11 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					93DAF0962D8EBFCE001B10AC = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					93DD1A6B2D76355C00488844 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					93DD1A7C2D76355D00488844 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 93DD1A6B2D76355C00488844;
-					};
-					93DD1A862D76355D00488844 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 93DD1A6B2D76355C00488844;
 					};
 				};
 			};
@@ -192,6 +199,8 @@
 			knownRegions = (
 				en,
 				Base,
+				uk,
+				ar,
 			);
 			mainGroup = 93DD1A632D76355C00488844;
 			minimizedProjectReferenceProxies = 1;
@@ -201,52 +210,43 @@
 			projectRoot = "";
 			targets = (
 				93DD1A6B2D76355C00488844 /* Gretings */,
-				93DD1A7C2D76355D00488844 /* GretingsTests */,
-				93DD1A862D76355D00488844 /* GretingsUITests */,
+				93DAF0962D8EBFCE001B10AC /* Greetings-Mac */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		93DAF0952D8EBFCE001B10AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93AE09CA2D8EC1A500BC7595 /* Assets.xcassets in Resources */,
+				93AE09CC2D8EC1B600BC7595 /* gretings.png in Resources */,
+				93AE09CB2D8EC1B200BC7595 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93DD1A6A2D76355C00488844 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A7B2D76355D00488844 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A852D76355D00488844 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				93AE09922D8EC00300BC7595 /* Assets.xcassets in Resources */,
+				93AE09932D8EC00300BC7595 /* gretings.png in Resources */,
+				93AE09962D8EC00300BC7595 /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		93DAF0932D8EBFCE001B10AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		93DD1A682D76355C00488844 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A792D76355D00488844 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		93DD1A832D76355D00488844 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,20 +255,78 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		93DD1A7F2D76355D00488844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93DD1A6B2D76355C00488844 /* Gretings */;
-			targetProxy = 93DD1A7E2D76355D00488844 /* PBXContainerItemProxy */;
-		};
-		93DD1A892D76355D00488844 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 93DD1A6B2D76355C00488844 /* Gretings */;
-			targetProxy = 93DD1A882D76355D00488844 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
+		93DAF0A32D8EBFD0001B10AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = SN8QYXPZW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		93DAF0A42D8EBFD0001B10AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Greetings-Mac/Preview Content\"";
+				DEVELOPMENT_TEAM = SN8QYXPZW2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Greetings-Mac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = macosx;
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 		93DD1A8F2D76355D00488844 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -326,6 +384,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -380,6 +439,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 			};
 			name = Release;
 		};
@@ -402,6 +462,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -414,10 +475,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gretings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Debug;
@@ -441,6 +503,7 @@
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -453,100 +516,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gretings;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		93DD1A952D76355D00488844 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SN8QYXPZW2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GretingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gretings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gretings";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		93DD1A962D76355D00488844 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SN8QYXPZW2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GretingsTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gretings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Gretings";
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Release;
-		};
-		93DD1A982D76355D00488844 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SN8QYXPZW2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GretingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Gretings;
-				XROS_DEPLOYMENT_TARGET = 2.2;
-			};
-			name = Debug;
-		};
-		93DD1A992D76355D00488844 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = SN8QYXPZW2;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MACOSX_DEPLOYMENT_TARGET = 15.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.GretingsUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_TARGET_NAME = Gretings;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				XROS_DEPLOYMENT_TARGET = 2.2;
 			};
 			name = Release;
@@ -554,6 +528,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		93DAF0A22D8EBFD0001B10AC /* Build configuration list for PBXNativeTarget "Greetings-Mac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				93DAF0A32D8EBFD0001B10AC /* Debug */,
+				93DAF0A42D8EBFD0001B10AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		93DD1A672D76355C00488844 /* Build configuration list for PBXProject "Gretings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -568,24 +551,6 @@
 			buildConfigurations = (
 				93DD1A922D76355D00488844 /* Debug */,
 				93DD1A932D76355D00488844 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93DD1A942D76355D00488844 /* Build configuration list for PBXNativeTarget "GretingsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93DD1A952D76355D00488844 /* Debug */,
-				93DD1A962D76355D00488844 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93DD1A972D76355D00488844 /* Build configuration list for PBXNativeTarget "GretingsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				93DD1A982D76355D00488844 /* Debug */,
-				93DD1A992D76355D00488844 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

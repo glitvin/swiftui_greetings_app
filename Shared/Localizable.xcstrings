@@ -1,0 +1,239 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Arabic" : {
+
+    },
+    "Boom! 💥" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بوم! 💥"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Бум! 💥"
+          }
+        }
+      }
+    },
+    "Bringing Ideas to Life 💡" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحويل الأفكار إلى واقع 💡"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Втілюємо ідеї в життя 💡"
+          }
+        }
+      }
+    },
+    "Bug-free since last build... 🐞" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خالي من الأخطاء منذ آخر بناء... 🐞"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Без багів з останнього збірки... 🐞"
+          }
+        }
+      }
+    },
+    "Click on text" : {
+
+    },
+    "Code the Future 🔥" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "برمجة المستقبل 🔥"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Кодуємо майбутнє 🔥"
+          }
+        }
+      }
+    },
+    "Code time!" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وقت البرمجة!"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Час кодувати"
+          }
+        }
+      }
+    },
+    "Crafting Digital Magic ✨" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صنع السحر الرقمي ✨"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Творимо цифрову магію ✨"
+          }
+        }
+      }
+    },
+    "Empowered by Swift 💻" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مدعوم بـ Swift 💻"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Надихають Swift 💻"
+          }
+        }
+      }
+    },
+    "English" : {
+
+    },
+    "Explore IOS Programming" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استكشف برمجة iOS"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Досліджуй iOS програмування"
+          }
+        }
+      }
+    },
+    "Greetings" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحيات"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привітання"
+          }
+        }
+      }
+    },
+    "Hello, Coder! 💥" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرحبًا، مبرمج! 💥"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привіт, програмісте! 💥"
+          }
+        }
+      }
+    },
+    "Hello, world!" : {
+
+    },
+    "iOS App" : {
+
+    },
+    "Let’s code! 💻" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لنكتب الكود! 💻"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Давайте кодувати! 💻"
+          }
+        }
+      }
+    },
+    "MAC APP" : {
+
+    },
+    "Ready to crash? 😜" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل أنت مستعد للتحطم؟ 😜"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Готовий до краху? 😜"
+          }
+        }
+      }
+    },
+    "Text will be randomly generated and observe nice animations" : {
+
+    },
+    "Think. Code. Innovate. 🚀" : {
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فكر. برمج. ابتكر. 🚀"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Думай. Кодуй. Інновуй. 🚀"
+          }
+        }
+      }
+    },
+    "Ukrainian" : {
+
+    }
+  },
+  "version" : "1.0"
+}

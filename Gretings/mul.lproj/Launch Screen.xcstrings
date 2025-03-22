@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "bfr-44-bYT.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Greetings\"; ObjectID = \"bfr-44-bYT\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحيات"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Greetings"
+          }
+        },
+        "uk" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Привітання"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}
