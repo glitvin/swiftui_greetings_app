@@ -18,12 +18,12 @@ A cross-platform SwiftUI application designed as a learning project to explore S
 
 ### iOS Version
 <p float="left">
-  <img src="https://imgur.com/a/7Dmle9B" width="300" alt="iOS Main Screen"/>
+  <img src="https://i.imgur.com/7Dmle9B.png" width="300" alt="iOS Main Screen"/>
 </p>
 
 ### macOS Version
 <p float="left">
-  <img src="https://imgur.com/a/rekfmdi" width="600" alt="macOS Main Window"/>
+  <img src="https://i.imgur.com/rekfmdi.png" width="600" alt="macOS Main Window"/>
 </p>
 
 ## Key SwiftUI Concepts Demonstrated
@@ -51,29 +51,29 @@ A cross-platform SwiftUI application designed as a learning project to explore S
 
 ## What I Learned
 
-🔹 SwiftUI Fundamentals
+- 🔹 SwiftUI Fundamentals
 Structuring UI with SwiftUI views (VStack, HStack, ZStack).
 Creating reusable UI components for better modularity.
-🔹 State Management
+- 🔹 State Management
 Managing local state with @State and @Binding.
 Using @Environment for adaptive layouts based on device type and orientation.
-🔹 Adaptive & Responsive Layouts
+- 🔹 Adaptive & Responsive Layouts
 Implementing dynamic layouts for iOS and macOS.
 Adjusting UI based on horizontalSizeClass and verticalSizeClass.
 Using Spacer() and .padding() effectively.
-🔹 User Interaction
+- 🔹 User Interaction
 Handling tap gestures to update UI dynamically.
 Implementing animations using withAnimation.
-🔹 Theming & Styling
+- 🔹 Theming & Styling
 Applying custom colors and gradients for UI styling.
 Using system icons (SF Symbols) for interactive UI elements.
-🔹 Localization & Accessibility
+- 🔹 Localization & Accessibility
 Implementing multi-language support with LocalizedStringKey.
 Adapting UI for different text directions (LTR & RTL).
-🔹 Platform-Specific Adaptations
+- 🔹 Platform-Specific Adaptations
 Using #if os(iOS) and #if os(macOS) for conditional UI rendering.
 Adjusting fonts and styles to match platform design guidelines.
-🔹 Project Structuring & Best Practices
+- 🔹 Project Structuring & Best Practices
 Organizing code into separate modules (Views, Models, Constants).
 Following SwiftUI best practices for code readability and maintainability.
 
