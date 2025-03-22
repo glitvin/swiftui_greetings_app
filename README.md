@@ -17,14 +17,10 @@ A cross-platform SwiftUI application designed as a learning project to explore S
 ## 📱 App Screenshots
 
 ### iOS Version
-<p float="left">
-  <img src="https://i.imgur.com/7Dmle9B.png" width="300" alt="iOS Main Screen"/>
-</p>
+![Image](https://github.com/user-attachments/assets/1b890d40-6f01-4136-8c28-1688286a9d64)
 
 ### macOS Version
-<p float="left">
-  <img src="https://i.imgur.com/rekfmdi.png" width="600" alt="macOS Main Window"/>
-</p>
+<img width="678" alt="Image" src="https://github.com/user-attachments/assets/d234bba5-9be4-487e-8688-9eaf4c1e64c2" />
 
 ## Key SwiftUI Concepts Demonstrated
 
